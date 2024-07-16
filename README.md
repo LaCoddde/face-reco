@@ -70,6 +70,7 @@ Face-Reco is a comprehensive Python-based API platform designed to meet a variet
 - **Object Detection**: Identify and classify objects within images or video streams.
 - **Text Recognition (OCR)**: Recognize and extract text from images.
 - **Developer Account Management**: Create and manage developer accounts, including API key generation and revocation.
+- **API Key Usage Tracking**: Track and analyze API usage by developers using their API keys.
 - **Analytics and Reporting**: Provide usage analytics and reporting for developers.
 
 ## Project Structure
@@ -160,7 +161,10 @@ Unit tests for each module to ensure functionality and reliability.
     - `POST /api/v1/account-management/generate-key`: Generate a new API key.
     - `POST /api/v1/account-management/revoke-key`: Revoke an existing API key.
 
-7. **Analytics and Reporting**
+7. **API Key Usage Tracking**
+    - `GET /api/v1/usage`: Track and analyze API usage by developers.
+
+8. **Analytics and Reporting**
     - `GET /api/v1/analytics`: Get usage analytics and reports.
 
 ## Installation
@@ -204,3 +208,4 @@ We welcome contributions to enhance the functionality of Face-Reco. Please fork 
 ## License
 
 This project is licensed under the Apache License.
+
