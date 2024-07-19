@@ -4,3 +4,13 @@ pymongo
 redis
 passlib
 requests
+face_recognition
+werkzeug
+PyPDF2
+python-docx
+Pillow
+pytesseract
+opencv-python
+dlib
+PIL
+deepface
