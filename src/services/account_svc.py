@@ -1,6 +1,6 @@
 #Service for developer account management
-from src.models.user import User
-from src.utils.db import get_session
+from models.user import User
+from utils.db import get_session
 
 def create_account(data):
     session = get_session()
@@ -35,7 +35,3 @@ def revoke_api_key(username):
         session.commit()
         return {"status": "success", "message": "API key revoked"}
     return {"status": "error", "message": "User not found"}
-
-def delete_account_Id(username):
-    session = get_session()
-    username

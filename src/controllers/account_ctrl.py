@@ -1,6 +1,6 @@
 #Controller for developer account management
 from flask import Blueprint, request, jsonify
-from src.services.account_svc import create_account, generate_api_key, revoke_api_key, delete_account_id
+from services.account_svc import create_account, generate_api_key, revoke_api_key
 
 account_bp = Blueprint('account', __name__)
 
@@ -27,5 +27,3 @@ def delete_account():
     data = request.json
     results = delete_account_id(data['username'])
     return jsonify(results)
-
-@account_bp.route('/billing')

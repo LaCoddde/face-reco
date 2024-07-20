@@ -1,11 +1,11 @@
 #Registers all controllers with the Flask application
-from src.controllers.face_ctrl import face_bp
-from src.controllers.doc_ctrl import doc_bp
-from src.controllers.compare_ctrl import compare_bp
-from src.controllers.obj_ctrl import obj_bp
-from src.controllers.ocr_ctrl import ocr_bp
-from src.controllers.account_ctrl import account_bp
-from src.controllers.report_ctrl import report_bp
+from controllers.face_ctrl import face_bp
+from controllers.doc_ctrl import doc_bp
+from controllers.compare_ctrl import compare_bp
+from controllers.obj_ctrl import obj_bp
+from controllers.ocr_ctrl import ocr_bp
+from controllers.account_ctrl import account_bp
+from controllers.report_ctrl import report_bp
 
 def register_controllers(app):
     app.register_blueprint(face_bp, url_prefix='/api/v1/face-recognition')

@@ -1,6 +1,6 @@
 #Controller for face recognition.
 from flask import Blueprint, request, jsonify, current_app
-from src.services.face_svc import recognize_face
+from services.face_svc import recognize_face
 
 face_bp = Blueprint('face', __name__)
 

@@ -1,6 +1,6 @@
 #Controller for document data extraction
 from flask import Blueprint, request, jsonify, current_app
-from src.services.doc_svc import extract_document_data
+from services.doc_svc import extract_document_data
 
 doc_bp = Blueprint('doc', __name__)
 

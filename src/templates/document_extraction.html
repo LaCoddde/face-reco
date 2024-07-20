@@ -1,0 +1,16 @@
+<!-- src/templates/document_extraction.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document Extraction</title>
+</head>
+<body>
+    <h1>Document Data Extraction Test</h1>
+    <form action="/api/v1/document-extraction" method="post" enctype="multipart/form-data">
+        <label for="document">Upload a document:</label>
+        <input type="file" id="document" name="document" accept=".pdf,.doc,.docx,.jpg,.jpeg,.png,.heif" required>
+        <button type="submit">Extract Data</button>
+    </form>
+</body>
+</html>

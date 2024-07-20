@@ -1,6 +1,5 @@
 flask
 sqlalchemy
-pymongo
 redis
 passlib
 requests
@@ -11,6 +10,7 @@ python-docx
 Pillow
 pytesseract
 opencv-python
-dlib
-PIL
 deepface
+psycopg2-binary
+tf_keras
+
