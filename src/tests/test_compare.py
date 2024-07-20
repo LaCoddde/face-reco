@@ -1,6 +1,6 @@
 #Unit tests for face-to-ID image comparison.
 import unittest
-from src.services.compare_svc import compare_faces
+from services.compare_svc import compare_faces
 
 class TestFaceComparison(unittest.TestCase):
 

@@ -1,9 +1,12 @@
-#Face recognition algorithms
+# src/utils/face_recog.py
 import cv2
 import numpy as np
 import dlib
 from PIL import Image
 from deepface import DeepFace
+
+# Initialize the dlib face detector
+detector = dlib.get_frontal_face_detector()
 
 def detect_faces(image_path):
     try:
@@ -25,7 +28,7 @@ def detect_faces(image_path):
             # Get detailed attributes
             age = estimate_age(face_image_path)
             gender = estimate_gender(face_image_path)
-            eye_color = estimate_eye_color(face_image_path)
+            eye_color = estimate_eye_color(face_image)
             
             results.append({
                 "coordinates": {
@@ -92,4 +95,3 @@ def estimate_eye_color(face_image):
     
     except Exception as e:
         raise ValueError(f"Error in estimating eye color: {str(e)}")
-

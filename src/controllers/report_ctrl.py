@@ -1,6 +1,6 @@
 #Controller for analytics and reporting
 from flask import Blueprint, jsonify
-from src.services.report_svc import get_analytics
+from services.report_svc import get_analytics
 
 report_bp = Blueprint('report', __name__)
 

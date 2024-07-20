@@ -1,6 +1,6 @@
 #Controller for object detection
 from flask import Blueprint, request, jsonify
-from src.services.obj_svc import detect_objects
+from services.obj_svc import detect_objects
 
 obj_bp = Blueprint('obj', __name__)
 

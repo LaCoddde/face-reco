@@ -1,6 +1,6 @@
 #Unit tests for text recognition (OCR).
 import unittest
-from src.services.ocr_svc import recognize_text
+from services.ocr_svc import recognize_text
 
 class TestOCR(unittest.TestCase):
 
