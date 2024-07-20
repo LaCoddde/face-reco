@@ -1,5 +1,5 @@
 #Service for face-to-ID image comparison
-from src.utils.compare import compare_face_id
+from utils.compare import compare_face_id
 from werkzeug.utils import secure_filename
 import os
 

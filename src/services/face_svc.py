@@ -1,7 +1,7 @@
 #service for face recognition services
 from werkzeug.utils import secure_filename
 import os
-from src.utils.face_recog import detect_faces
+from utils.face_recog import detect_faces
 
 def recognize_face(image, upload_folder):
     try:

@@ -1,6 +1,6 @@
 #Unit tests for document data extraction.
 import unittest
-from src.services.doc_svc import extract_document_data
+from services.doc_svc import extract_document_data
 
 class TestDocumentExtraction(unittest.TestCase):
 

@@ -1,0 +1,16 @@
+<!-- src/templates/face_recognition.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Recognition</title>
+</head>
+<body>
+    <h1>Face Recognition Test</h1>
+    <form action="/api/v1/face-recognition" method="post" enctype="multipart/form-data">
+        <label for="image">Upload an image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+        <button type="submit">Recognize Face</button>
+    </form>
+</body>
+</html>

@@ -1,6 +1,6 @@
 #Unit tests for analytics and reporting.
 import unittest
-from src.services.report_svc import get_analytics
+from services.report_svc import get_analytics
 
 class TestReporting(unittest.TestCase):
 

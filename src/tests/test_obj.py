@@ -1,6 +1,6 @@
 #Unit tests for object detection.
 import unittest
-from src.services.obj_svc import detect_objects
+from services.obj_svc import detect_objects
 
 class TestObjectDetection(unittest.TestCase):
 
