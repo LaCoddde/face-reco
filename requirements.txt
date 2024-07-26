@@ -13,4 +13,5 @@ opencv-python
 deepface
 psycopg2-binary
 tf_keras
-
+torch
+torchvision

@@ -1,0 +1,16 @@
+<!-- src/templates/object_detection.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Object Detection Test</title>
+</head>
+<body>
+    <h1>Object Detection Test</h1>
+    <form action="/object-detection" method="post" enctype="multipart/form-data">
+        <label for="image">Upload an image:</label>
+        <input type="file" id="image" name="image" accept="image/*" required>
+        <button type="submit">Detect Objects</button>
+    </form>
+</body>
+</html>
