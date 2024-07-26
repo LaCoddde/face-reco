@@ -1,6 +1,6 @@
 #Unit tests for developer account management.
 import unittest
-from src.services.account_svc import create_account, generate_api_key, revoke_api_key
+from services.account_svc import create_account, generate_api_key, revoke_api_key
 
 class TestAccountManagement(unittest.TestCase):
 

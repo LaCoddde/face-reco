@@ -40,9 +40,9 @@ face-reco/
 │   │   ├── obj_detect.py
 │   │   ├── ocr.py
 │   │   └── security.py
-│   ├── static/
-│   │   └── sample_images/
 │   ├── templates/
+│   │   └── sample_images/
+│   ├── uploads/
 │   └── tests/
 │       ├── __init__.py
 │       ├── test_face.py

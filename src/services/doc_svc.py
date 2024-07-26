@@ -1,7 +1,7 @@
 #Service for document data extraction
 from werkzeug.utils import secure_filename
 import os
-from src.utils.doc_proc import process_document
+from utils.doc_proc import process_document
 
 def extract_document_data(document, upload_folder):
     try:

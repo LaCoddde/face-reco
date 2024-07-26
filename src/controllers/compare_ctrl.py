@@ -1,6 +1,6 @@
 # Controller for face-to-ID image comparison
 from flask import Blueprint, request, jsonify, current_app
-from src.services.compare_svc import compare_faces
+from services.compare_svc import compare_faces
 
 compare_bp = Blueprint('compare', __name__)
 

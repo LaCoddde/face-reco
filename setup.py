@@ -7,7 +7,6 @@ setup(
     install_requires=[
         'flask',
         'sqlalchemy',
-        'pymongo',
         'redis',
         'passlib',
         'requests',
