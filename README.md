@@ -41,7 +41,12 @@ face-reco/
 │   │   ├── ocr.py
 │   │   └── security.py
 │   ├── templates/
-│   │   └── sample_images/
+│   │   ├── sample_doc/
+│   │   ├── sample_pdf/
+│   │   ├── sample_images/
+│   │   ├── document_extractraction.html
+│   │   ├── face_recognition.html
+│   │   └── index.html
 │   ├── uploads/
 │   └── tests/
 │       ├── __init__.py
